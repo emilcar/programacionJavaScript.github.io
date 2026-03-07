@@ -1,3 +1,3 @@
-function imprimir(mensaje) {
+function print(mensaje) {
     document.writeln(mensaje)
 }
