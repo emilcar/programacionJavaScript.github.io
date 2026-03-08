@@ -1,7 +1,7 @@
 
 /**
  * función usada para imprimir en el DOM, y facilitar el
- * trabajo educativo a nicel inicial.
+ * trabajo educativo a nivel inicial.
  * No recomendado para usar en productos destinados a ambientes de producción
  * @param {mensaje a escribir en el DOM} mensaje 
  */
@@ -11,7 +11,7 @@ function write(mensaje) {
 
 /**
  * función usada para imprimir en el DOM, y facilitar el
- * trabajo educativo a nicel inicial.
+ * trabajo educativo a nivel inicial.
  * No recomendado para usar en productos destinados a ambientes de producción
  * @param {mensaje a escribir en el DOM} mensaje 
  */
@@ -21,7 +21,7 @@ function writeln(mensaje) {
 
 /**
  * función usada para imprimir en el DOM, y facilitar el
- * trabajo educativo a nicel inicial.
+ * trabajo educativo a nivel inicial.
  * El nombre es para emular el print de python
  * No recomendado para usar en productos destinados a ambientes de producción
  * @param {mensaje a escribir en el DOM} mensaje 
@@ -32,7 +32,7 @@ function print(mensaje) {
 
 /**
  * función usada para imprimir sin salto de linea en el DOM, y facilitar el
- * trabajo educativo a nicel inicial.
+ * trabajo educativo a nivel inicial.
  * El nombre es para emular el print de python
  * No recomendado para usar en productos destinados a ambientes de producción
  * @param {mensaje a escribir en el DOM} mensaje 
@@ -43,7 +43,7 @@ function printx(mensaje) {
 
 /**
  * función usada para imprimir en el DOM, y facilitar el
- * trabajo educativo a nicel inicial.
+ * trabajo educativo a nivel inicial.
  * El nombre es para emular el print de PSeint
  * No recomendado para usar en productos destinados a ambientes de producción
  * @param {mensaje a escribir en el DOM} mensaje 
@@ -54,7 +54,7 @@ function imprimir(mensaje) {
 
 /**
  * función usada para imprimir sin salto de linea en el DOM, y facilitar el
- * trabajo educativo a nicel inicial.
+ * trabajo educativo a nivel inicial.
  * El nombre es para emular el print de PSeint
  * No recomendado para usar en productos destinados a ambientes de producción
  * @param {mensaje a escribir en el DOM} mensaje 
@@ -65,7 +65,7 @@ function imprimirx(mensaje) {
 
 /**
  * función usada para entrada de datos, y facilitar el
- * trabajo educativo a nicel inicial.
+ * trabajo educativo a nivel inicial.
  * El nombre es para emular un input básico
  * No recomendado para usar en productos destinados a ambientes de producción
  * @param {mensaje a mostrar} mensaje 
@@ -77,7 +77,7 @@ function input(mensaje) {
 
 /**
  * función usada para entrada de datos, y facilitar el
- * trabajo educativo a nicel inicial.
+ * trabajo educativo a nivel inicial.
  * El nombre es para emular un input de PSeint
  * No recomendado para usar en productos destinados a ambientes de producción
  * @param {mensaje a mostrar} mensaje 
@@ -86,15 +86,6 @@ function input(mensaje) {
 function entrada(mensaje) {
     return prompt(mensaje)
 }
-const apiWheather = {
-    key: '33d58c2db3804b710624d4a5316c6c48',
-    url: 'https://api.openweathermap.org/data/2.5/weather',
-    city: 'Buenos Aires',       //FIXME deberia detectar la ciudad
-    internet: false
-}
-
-
-
 
 /**
  * Función que devuelve la hora en un string
