@@ -134,3 +134,28 @@ function getFecha() {
 
     return nombreDia + ", " + diaMes + " de " + nombreMes + " del año " + anio
 }
+/**
+ * Función que devuelve la zona horaria
+ * @returns Zona Horaria
+*/
+function getZonaHoraria() {
+    //El formato de zona horaria lo da el navegador de internet
+    return Intl
+        .DateTimeFormat()
+        .resolvedOptions()
+        .timeZone
+        .replace("/", " ")
+        .replace("/", " ")
+        .replace("_", " ")
+        .replace("America","América")
+}
+
+
+/**
+ * Función que convierte grados kelvin a celcius
+ * @param {*} kelvin 
+ * @returns 
+ */
+function toCelsius(kelvin) {
+    return Math.round(kelvin - 273.15)
+}
